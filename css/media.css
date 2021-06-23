@@ -1,0 +1,368 @@
+@media (max-width: 1110px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main .features_section .container {
+        padding-bottom: 60px;
+    }
+
+    .main .features_section .container .features {
+        justify-content: space-around;
+    }
+
+    .main .features_section .container .features-item {
+        margin-bottom: 40px;
+    }
+
+    .nav_bar {
+        order: 1;
+        width: 100%;
+        margin: 50px auto 0;
+    }
+
+    .main .video_section .container {
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .main .technology_section .container .technologies {
+        justify-content: space-around;
+    }
+
+    .main .contact_section .container .form form input:nth-child(1),
+    .main .contact_section .container .form form input:nth-child(2),
+    .main .contact_section .container .form form select:nth-child(1),
+    .main .contact_section .container .form form select:nth-child(2) {
+        width: 100%;
+    }
+
+    .header .container .title p {
+        width: 60%;
+    }
+}
+
+@media (max-width: 982px) {
+    .main .technology_section .container .technologies-item {
+        width: 300px;
+    }
+
+    .main .technology_section .container .technologies-item::after {
+        left: 29%;
+    }
+}
+
+@media (max-width: 950px) {
+    .main .video_section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .video_section .container .text {
+        width: 80%;
+    }
+
+    .main .video_section .container .text h2 {
+        margin-top: 30px;
+    }
+
+    .main .video_section .container .text p {
+        width: 100%;
+    }
+
+    .main .video_section .container .video {
+        width: 80%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .video_section .container .video div {
+        text-align: center;
+    }
+
+    .main .appDownload_section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .appDownload_section .container .app-description {
+        width: 80%;
+    }
+
+    .main .appDownload_section .container .slider_container {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .main .appDownload_section .container .app-description {
+        padding-right: 0;
+    }
+
+    .main .appDownload_section .container .app-description .download_links {
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .footer .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer .container .footer_top {
+        padding-bottom: 50px;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .footer .container .footer_top div {
+        width: 35%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .container .nav {
+        padding-top: 25px;
+    }
+
+    .lang_login {
+        order: 1;
+        width: 100%;
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .container .nav .lang_login .login_btn {
+        padding: 6px 20px;
+    }
+
+    .logo {
+        order: 2;
+        z-index: 999;
+    }
+
+    .menu_btn {
+        display: block;
+        order: 3;
+        z-index: 999;
+    }
+
+    .header .container .nav .nav_bar {
+        margin: 0;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 0;
+        right: 0;
+        top: 88px;
+        background: rgb(237, 76, 92);
+        transition: all .5s;
+    }
+
+    .header .container .nav .nav_bar li {
+        display: block;
+        text-align: center;
+        margin: 35px 0;
+    }
+
+    .header .container .nav .nav_bar li a {
+        font-size: 18px;
+    }
+
+    .header .container .nav .nav_bar.show {
+        padding-top: 20px;
+        height: 315px;
+    }
+
+    .header .container .title {
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
+
+    .header .container .title h1 {
+        font-size: 62px;
+    }
+
+    .header .container .title p {
+        font-size: 22px;
+        width: 70%;
+    }
+
+    .main .features_section .container {
+        padding-top: 40px;
+    }
+
+    .main .technology_section .container {
+        padding-bottom: 60px;
+    }
+
+    .main .video_section .container .text {
+        width: 100%;
+    }
+
+    .main .video_section .container .video {
+        width: 100%;
+    }
+
+    .main .technology_section .container .technologies {
+        justify-content: center;
+    }
+
+    .main .appDownload_section .container .slider_container {
+        margin-top: 30px;
+    }
+
+    .main .appDownload_section .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .appDownload_section .container .app-description {
+        width: 100%;
+    }
+
+    .main .contact_section .container {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main .contact_section .container .text {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .main .contact_section .container .text h2,
+    p {
+        margin-bottom: 25px;
+    }
+
+    .main .contact_section .container .form {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .header .container .title {
+        padding-bottom: 90px;
+    }
+
+    .header .container .title h1 {
+        font-size: 50px;
+    }
+
+    .header .container .title p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .header .container .title .signup_btn {
+        padding: 14px 30px;
+    }
+
+    .main .video_section .container .video div video {
+        width: 400px;
+    }
+
+    .footer .container .footer_top {
+        justify-content: flex-start;
+    }
+
+    .footer .container .footer_top div {
+        width: 50%;
+    }
+
+    .footer .container .footer_top .address, .support {
+        width: 100%;
+    }
+
+    .footer .container .footer_top .address p {
+        width: 270px;
+    }
+}
+
+@media (max-width: 520px) {
+    .header .container .title h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header .container .nav .logo {
+        font-size: 20px
+    }
+
+    .header .container .nav .logo::before {
+        top: -5;
+    }
+
+    .header .container .title h1 {
+        font-size: 32px;
+    }
+
+    .header .container .title p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .main .video_section .container .video div .play_btn {
+        top: 30%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .main .video_section .container .video div video {
+        width: 300px;
+        margin-left: 26px;
+    }
+
+    .main .features_section .container {
+        padding-bottom: 20px;
+    }
+
+    .main .features_section .container h2 {
+        margin-bottom: 40px;
+    }
+
+    .main .features .features-item img {
+        width: 300px;
+    }
+
+    .main .features_section .container .features-item div {
+        width: 250px;
+        padding: 15px 20px 15px;
+    }
+
+    .main .technology_section .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .technology_section .container h2 {
+        margin-bottom: 40px;
+    }
+
+    .main .contact_section .container .form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 370px) {
+    .header .container .title h1 {
+        font-size: 29px;
+    }
+
+    .main .video_section .container .video div video {
+        width: 250px;
+    }
+}

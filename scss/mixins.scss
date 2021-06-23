@@ -1,0 +1,24 @@
+@mixin dFlex ($justify: space-between, $align: center) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin Lato_reg ($fs: 14px) {
+    font-family: 'latoregular', sans-serif;
+    font-size: $fs;
+}
+
+@mixin Lato_bold ($fs: 14px) {
+    font-family: 'latobold', sans-serif;
+    font-weight: bold;
+    font-size: $fs;
+}
+
+@mixin before ($w: 15px, $h: 15px) {
+    content: '';
+    position: absolute;
+    width: $w;
+    height: $h;
+}
